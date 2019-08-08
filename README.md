@@ -1,4 +1,4 @@
-# Gateways REST API
+# Gateways REST API using Hapi.js
 
 General description
 ---
