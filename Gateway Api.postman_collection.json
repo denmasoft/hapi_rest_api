@@ -15,11 +15,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/gateways",
+					"raw": "localhost:3000/api/v1/gateways",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -46,11 +46,11 @@
 					"raw": "{\n\t\"uid\": \"b558944c03ab1e0380626c9283800265\",\n\t\"name\": \"Gateway 1\",\n\t\"ipv4\": \"172.16.4.120\"\n}"
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/gateways",
+					"raw": "localhost:3000/api/v1/gateways",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -70,11 +70,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/gateways/sdasdasdadadasd",
+					"raw": "localhost:3000/api/v1/gateways/sdasdasdadadasd",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -102,11 +102,11 @@
 					"raw": "{\n\t\"name\": \"Updated Name\"\n}"
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/gateways/sdasdasdadadasd",
+					"raw": "localhost:3000/api/v1/gateways/sdasdasdadadasd",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -127,11 +127,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/gateways/sdasdasdadadasd",
+					"raw": "localhost:3000/api/v1/gateways/sdasdasdadadasd",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -159,11 +159,11 @@
 					"raw": "{\n\t\"uid\": \"ca837c78e1b5dda8a6267880ef11c7ad\",\n\t\"vendor\": \"Asus\",\n\t\"dateCreated\": \"2019-02-15\",\n\t\"status\": true\n}"
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/gateways/b558944c03ab1e0380626c9283800265/devices",
+					"raw": "localhost:3000/api/v1/gateways/b558944c03ab1e0380626c9283800265/devices",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -185,11 +185,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/gateways/zasdxcfefasdjhsdjsahkas/devices",
+					"raw": "localhost:3000/api/v1/gateways/zasdxcfefasdjhsdjsahkas/devices",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -218,11 +218,11 @@
 					"raw": "{\n\t\"vendor\": \"LG\",\n\t\"dateCreated\": \"2019-02-15\",\n\t\"status\": false,\n\t\"gateway\": \"zasdxcfefasdjhsdjsahkas\"\n}"
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/devices",
+					"raw": "localhost:3000/api/v1/devices",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -242,11 +242,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/devices/bcbvcbcv",
+					"raw": "localhost:3000/api/v1/devices/bcbvcbcv",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -274,11 +274,11 @@
 					"raw": "{\n\t\"vendor\":\"Asus\"\n}"
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/devices/bcbvcbcv",
+					"raw": "localhost:3000/api/v1/devices/bcbvcbcv",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -299,11 +299,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/devices/28486c2f33841e5ca68e7dc2f8eb3526",
+					"raw": "localhost:3000/api/v1/devices/28486c2f33841e5ca68e7dc2f8eb3526",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -324,11 +324,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/devices",
+					"raw": "localhost:3000/api/v1/devices",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -348,11 +348,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3002/api/v1/devices/28486c2f33841e5ca68e7dc2f8eb3526/gateway",
+					"raw": "localhost:3000/api/v1/devices/28486c2f33841e5ca68e7dc2f8eb3526/gateway",
 					"host": [
 						"localhost"
 					],
-					"port": "3002",
+					"port": "3000",
 					"path": [
 						"api",
 						"v1",

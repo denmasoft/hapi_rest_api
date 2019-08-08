@@ -35,8 +35,8 @@ Prerequisites
 Instructions
 ---
 1. Clone project: 
-	git clone https://github.com/yalint/gateways-backend.git
-2. cd gateways-backend
+	git clone https://github.com/denmasoft/hapi_rest_api.git
+2. cd hapi_rest_api
 3. npm install
 4. Specify your mongodb connection string in config.js file.
 5. npm start 
