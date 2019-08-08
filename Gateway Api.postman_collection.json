@@ -1,0 +1,368 @@
+{
+	"info": {
+		"_postman_id": "6f71e07a-7e60-4ff3-be62-96f11338287d",
+		"name": "Gateway Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List Gateways",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/gateways",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"gateways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add new Gateway",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"uid\": \"b558944c03ab1e0380626c9283800265\",\n\t\"name\": \"Gateway 1\",\n\t\"ipv4\": \"172.16.4.120\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/gateways",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"gateways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show gateway",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/gateways/sdasdasdadadasd",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"sdasdasdadadasd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update gateway",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Updated Name\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/gateways/sdasdasdadadasd",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"sdasdasdadadasd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete gateway",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/gateways/sdasdasdadadasd",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"sdasdasdadadasd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Devices to Gateway",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"uid\": \"ca837c78e1b5dda8a6267880ef11c7ad\",\n\t\"vendor\": \"Asus\",\n\t\"dateCreated\": \"2019-02-15\",\n\t\"status\": true\n}"
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/gateways/b558944c03ab1e0380626c9283800265/devices",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"b558944c03ab1e0380626c9283800265",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Gateway Devices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/gateways/zasdxcfefasdjhsdjsahkas/devices",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"zasdxcfefasdjhsdjsahkas",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new Device",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"vendor\": \"LG\",\n\t\"dateCreated\": \"2019-02-15\",\n\t\"status\": false,\n\t\"gateway\": \"zasdxcfefasdjhsdjsahkas\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/devices",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show device",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/devices/bcbvcbcv",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"devices",
+						"bcbvcbcv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Device",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"vendor\":\"Asus\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/devices/bcbvcbcv",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"devices",
+						"bcbvcbcv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete device",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/devices/28486c2f33841e5ca68e7dc2f8eb3526",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"devices",
+						"28486c2f33841e5ca68e7dc2f8eb3526"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Devices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/devices",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show device Gateway",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3002/api/v1/devices/28486c2f33841e5ca68e7dc2f8eb3526/gateway",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"v1",
+						"devices",
+						"28486c2f33841e5ca68e7dc2f8eb3526",
+						"gateway"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
