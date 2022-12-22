@@ -28,7 +28,7 @@
     "nodemon": "^1.17.3",
     "path": "^0.12.7",
     "slug": "^0.9.1",
-    "socketcluster": "^11.1.0",
+    "socketcluster": "^17.2.0",
     "socketcluster-client": "^14.0.0",
     "uniqid": "^5.0.3"
   }
